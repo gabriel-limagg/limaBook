@@ -1,5 +1,6 @@
 import React from 'react'
-const textoOpcoes = ['CATEGORIAS','FAVORITAS','MINHA ESTANTE']
+import { Link } from 'react-router-dom'
+const textoOpcoes = [ <Link to="/categorias"> CATEGORIAS </Link >, <Link to= "/favoritos">FAVORITAS</Link> , <Link to = "/estante"> MINHA ESTANTE</Link>]
 function opcoes() {
   return (
     <ul className='flex'>
